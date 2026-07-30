@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/ctao-datamodel/ctao_datamodel-{{ version }}.tar.gz
-  sha256: 7a0b92a17bec0f9837d3eedbd5b486ea8a26bac081c8f599373765096066050a
+  sha256: 4be60d76868737c5953eebaee6c51acd065429db23b44625f71b66ffa7ec7bd5
 
 build:
   noarch: python
@@ -28,6 +28,7 @@ requirements:
     - pyyaml
     - astropy-base >=7.1
     - astropydantic
+    - particle
 
 test:
   imports:
