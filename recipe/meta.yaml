@@ -28,6 +28,7 @@ requirements:
     - pyyaml
     - astropy-base >=7.1
     - astropydantic
+    - particle
 
 test:
   imports:
