@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/c/ctao-datamodel/ctao_datamodel-{{ version }}.tar.gz
-  sha256: 4be60d76868737c5953eebaee6c51acd065429db23b44625f71b66ffa7ec7bd5
+  url: https://files.pythonhosted.org/packages/source/c/ctao-datamodel/ctao_datamodel-{{ version }}.tar.gz
+  sha256: 25780758aa4a55b8d67a21332366c70c4615d7875f6b9de7f11923de3643ca92
 
 build:
   noarch: python
